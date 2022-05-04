@@ -1,0 +1,417 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="#e2f3ff">
+
+    <!--training1 layout-->
+    <RelativeLayout
+        android:id="@+id/tr1Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="#e2f3ff">
+
+        <TextView
+            android:id="@+id/stretchText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Training"
+            android:textColor="#3d7cb8"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/stretchImg1"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_below="@+id/stretchText1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/stretch1"
+        />
+
+        <TextView
+            android:id="@+id/stretchName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stretchImg1"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:text="Motion1 : Extension"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/stretchDescription1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stretchName1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp"
+            android:text="Hold your mouse and bend your wrist so that your palms face forward."
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stretchDescription1"
+            >
+
+            <Button
+                android:id="@+id/tr1StartBtn"
+                android:layout_width="120dp"
+                android:layout_height="37dp"
+                android:layout_weight="1"
+                android:background="#8cc2f5"
+                android:text="TRAIN_START" />
+
+            <Button
+                android:id="@+id/tr1EndtBtn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TRAIN_END" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--training2 layout-->
+    <RelativeLayout
+        android:id="@+id/t2Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="#e2f3ff">
+
+        <TextView
+            android:id="@+id/stretchText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Training"
+            android:textColor="#3d7cb8"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/stretchImg2"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_below="@+id/stretchText2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/stretch2"
+        />
+
+        <TextView
+            android:id="@+id/stretchName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stretchImg2"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:text="Motion2 : Flexion"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/stretchDescription2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stretchName2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp"
+            android:text="Hold your mouse and bend your wrist so that your palms face your body."
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stretchDescription2"
+            >
+
+            <Button
+                android:id="@+id/tr2StartBtn"
+                android:layout_width="120dp"
+                android:layout_height="37dp"
+                android:layout_weight="1"
+                android:background="#8cc2f5"
+                android:text="TRAIN_START" />
+
+            <Button
+                android:id="@+id/tr2EndtBtn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TRAIN_END" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--training3 layout-->
+    <RelativeLayout
+        android:id="@+id/stretch3Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="#e2f3ff">
+
+        <TextView
+            android:id="@+id/stretchText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Training"
+            android:textColor="#3d7cb8"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/stretchImg3"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_below="@+id/stretchText3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+        //android:src="@drawable/stretch2"
+        />
+
+        <TextView
+            android:id="@+id/stretchName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stretchImg3"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:text="Motion3 : Move vertically"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/stretchDescription3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stretchName3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp"
+            android:text="Hold your mouse and move your wrist up and down."
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stretchDescription3"
+            >
+
+            <Button
+                android:id="@+id/tr3StartBtn"
+                android:layout_width="120dp"
+                android:layout_height="37dp"
+                android:layout_weight="1"
+                android:background="#8cc2f5"
+                android:text="TRAIN_START" />
+
+            <Button
+                android:id="@+id/tr3EndtBtn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TRAIN_END" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--training4 layout-->
+    <RelativeLayout
+        android:id="@+id/stretch4Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="#e2f3ff">
+
+        <TextView
+            android:id="@+id/stretchText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Training"
+            android:textColor="#3d7cb8"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/stretchImg4"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_below="@+id/stretchText4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+        //android:src="@drawable/stretch2"
+        />
+
+        <TextView
+            android:id="@+id/stretchName4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stretchImg4"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:text="Motion4 : Clockwise rotation"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/stretchDescription4"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stretchName4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp"
+            android:text="Motion4 : Clockwise rotation"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stretchDescription4"
+            >
+
+            <Button
+                android:id="@+id/tr4StartBtn"
+                android:layout_width="120dp"
+                android:layout_height="37dp"
+                android:layout_weight="1"
+                android:background="#8cc2f5"
+                android:text="TRAIN_START" />
+
+            <Button
+                android:id="@+id/tr4EndtBtn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TRAIN_END" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <!--training5 layout-->
+    <RelativeLayout
+        android:id="@+id/stretch5Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="411dp"
+        android:background="#e2f3ff"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:id="@+id/stretchText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Training"
+            android:textColor="#3d7cb8"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/stretchImg5"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_below="@+id/stretchText5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+        //android:src="@drawable/stretch2"
+        />
+
+        <TextView
+            android:id="@+id/stretchName5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stretchImg5"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:text="Motion5 : Counterclockwise rotation"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stretchDescription5"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stretchName5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Hold your mouse and turn your wrist counterclockwise."
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stretchDescription5"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tr5StartBtn"
+                android:layout_width="120dp"
+                android:layout_height="37dp"
+                android:layout_weight="1"
+                android:background="#8cc2f5"
+                android:text="TRAIN_START" />
+
+            <Button
+                android:id="@+id/tr5EndtBtn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TRAIN_END" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+
